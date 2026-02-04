@@ -1,0 +1,31 @@
+{
+  "name": "nest-js-react-test",
+  "packageManager": "npm@10.8.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "node apps/api/dist/main.js",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Molli1992/NestJs-React-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Molli1992/NestJs-React-Test/issues"
+  },
+  "homepage": "https://github.com/Molli1992/NestJs-React-Test#readme",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.8.3"
+  }
+}
